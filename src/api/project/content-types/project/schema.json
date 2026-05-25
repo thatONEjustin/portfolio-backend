@@ -40,7 +40,7 @@
     "Technology": {
       "type": "component",
       "component": "tech-stack.tech-stack",
-      "repeatable": false
+      "repeatable": true
     }
   }
 }

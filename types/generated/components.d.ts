@@ -6,7 +6,22 @@ export interface TechStackTechStack extends Struct.ComponentSchema {
     displayName: 'Tech Stack';
   };
   attributes: {
-    Name: Schema.Attribute.String;
+    frameworks: Schema.Attribute.Enumeration<
+      [
+        'tailwindcss',
+        'sass',
+        'react',
+        'astro',
+        'alpinejs',
+        'jquery',
+        'vuejs',
+        'nextjs',
+        'bootstrap',
+        'laravel',
+        'angular',
+        'ionic',
+      ]
+    >;
   };
 }
 

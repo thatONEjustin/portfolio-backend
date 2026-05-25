@@ -486,7 +486,7 @@ export interface ApiProjectProject extends Struct.CollectionTypeSchema {
     publishedAt: Schema.Attribute.DateTime;
     screenshots: Schema.Attribute.Media<'images' | 'files' | 'videos', true>;
     slug: Schema.Attribute.UID<'Title'> & Schema.Attribute.Required;
-    Technology: Schema.Attribute.Component<'tech-stack.tech-stack', false>;
+    Technology: Schema.Attribute.Component<'tech-stack.tech-stack', true>;
     Title: Schema.Attribute.String & Schema.Attribute.Required;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &

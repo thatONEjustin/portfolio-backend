@@ -5,8 +5,22 @@
   },
   "options": {},
   "attributes": {
-    "Name": {
-      "type": "string"
+    "frameworks": {
+      "type": "enumeration",
+      "enum": [
+        "tailwindcss",
+        "sass",
+        "react",
+        "astro",
+        "alpinejs",
+        "jquery",
+        "vuejs",
+        "nextjs",
+        "bootstrap",
+        "laravel",
+        "angular",
+        "ionic"
+      ]
     }
   },
   "config": {}
