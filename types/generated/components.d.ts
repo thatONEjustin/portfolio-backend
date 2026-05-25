@@ -13,13 +13,15 @@ export interface TechStackTechStack extends Struct.ComponentSchema {
         'react',
         'astro',
         'alpinejs',
-        'jquery',
-        'vuejs',
-        'nextjs',
+        'jQuery',
+        'vue.js',
+        'next.js',
         'bootstrap',
         'laravel',
         'angular',
-        'ionic',
+        'Ionic Framework',
+        'Craft CMS',
+        'WordPress',
       ]
     >;
   };
