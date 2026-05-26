@@ -21,7 +21,11 @@
         "angular",
         "Ionic Framework",
         "Craft CMS",
-        "WordPress"
+        "Craft Commerce",
+        "WordPress",
+        "WooCommerce",
+        "Shopify",
+        "Hydrogen"
       ]
     }
   },

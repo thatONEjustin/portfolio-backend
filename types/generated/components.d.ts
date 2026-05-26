@@ -21,7 +21,11 @@ export interface TechStackTechStack extends Struct.ComponentSchema {
         'angular',
         'Ionic Framework',
         'Craft CMS',
+        'Craft Commerce',
         'WordPress',
+        'WooCommerce',
+        'Shopify',
+        'Hydrogen',
       ]
     >;
   };
