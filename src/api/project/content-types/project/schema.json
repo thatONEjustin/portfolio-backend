@@ -25,7 +25,7 @@
       "unique": true
     },
     "description": {
-      "type": "text",
+      "type": "richtext",
       "required": true
     },
     "screenshots": {
