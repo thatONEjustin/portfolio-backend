@@ -15,18 +15,33 @@
       "type": "string",
       "required": true
     },
+    "category": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "ecommerce",
+        "banking/credit",
+        "medical",
+        "government",
+        "b2b",
+        "other"
+      ]
+    },
     "slug": {
       "type": "uid",
       "targetField": "Title",
       "required": true
     },
-    "external_url": {
-      "type": "string",
-      "unique": true
+    "preview": {
+      "type": "text"
     },
     "description": {
       "type": "richtext",
       "required": true
+    },
+    "external_url": {
+      "type": "string",
+      "unique": true
     },
     "screenshots": {
       "type": "media",
