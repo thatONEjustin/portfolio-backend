@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_buttons_buttons",
+  "info": {
+    "displayName": "Buttons"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "isLink": {
+      "type": "boolean"
+    },
+    "URL": {
+      "type": "string",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "isLink"
+            },
+            true
+          ]
+        }
+      }
+    },
+    "File": {
+      "type": "media",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "isLink"
+            },
+            false
+          ]
+        }
+      },
+      "multiple": false,
+      "allowedTypes": [
+        "files"
+      ]
+    }
+  },
+  "config": {}
+}
