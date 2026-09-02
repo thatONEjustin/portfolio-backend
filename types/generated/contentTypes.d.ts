@@ -465,6 +465,7 @@ export interface ApiBlogPostBlogPost extends Struct.CollectionTypeSchema {
       'api::blog-post.blog-post'
     > &
       Schema.Attribute.Private;
+    Preview: Schema.Attribute.Text;
     publishedAt: Schema.Attribute.DateTime;
     slug: Schema.Attribute.UID<'Title'>;
     Title: Schema.Attribute.String;

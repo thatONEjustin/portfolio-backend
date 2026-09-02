@@ -17,6 +17,9 @@
     "Date": {
       "type": "date"
     },
+    "Preview": {
+      "type": "text"
+    },
     "Content": {
       "type": "richtext"
     },
